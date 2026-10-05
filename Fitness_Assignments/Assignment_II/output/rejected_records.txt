@@ -1,0 +1,19 @@
+REJECTED RECORDS
+source=data/fitness_sessions.csv | row=26 | field=signal_quality | reason=below usable quality of 0.50
+source=data/fitness_sessions.csv | row=27 | field=signal_quality | reason=below usable quality of 0.50
+source=data/fitness_sessions.csv | row=28 | field=signal_quality | reason=below usable quality of 0.50
+source=data/fitness_sessions.csv | row=29 | field=signal_quality | reason=below usable quality of 0.50
+source=data/fitness_sessions.csv | row=30 | field=signal_quality | reason=below usable quality of 0.50
+source=data/fitness_sessions_invalid.csv | row=3 | field=heart_rate | reason=not a number: 'fast'
+source=data/fitness_sessions_invalid.csv | row=4 | field=participant_id | reason=expected P followed by three digits; got '001'
+source=data/fitness_sessions_invalid.csv | row=5 | field=activity_level | reason=value is missing
+source=data/fitness_sessions_invalid.csv | row=6 | field=signal_quality | reason=must be at most 1
+source=data/fitness_sessions_invalid.csv | row=7 | field=session_id | reason=expected FIT-YYYY-NNN; got 'FIT-26-102'
+source=data/fitness_sessions_invalid.csv | row=8 | field=participant_id | reason=unknown participant: P999
+source=data/fitness_sessions_invalid.csv | row=9 | field=timestamp | reason=must be a whole number
+source=data/fitness_sessions_invalid.csv | row=10 | field=heart_rate | reason=must be at least 30
+source=data/fitness_sessions_invalid.csv | row=11 | field=skin_response | reason=must be at least 0
+source=data/fitness_sessions_invalid.csv | row=12 | field=row | reason=fewer values than the CSV header
+
+FILE ERRORS
+No file errors.

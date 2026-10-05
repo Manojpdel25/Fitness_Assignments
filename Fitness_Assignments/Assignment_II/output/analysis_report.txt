@@ -1,0 +1,119 @@
+SMART FITNESS SESSION ANALYZER
+Simulated data; not a medical assessment.
+
+Accepted profiles: 3
+Accepted observations: 25
+Rejected rows: 15
+File errors: 0
+
+Session: FIT-2026-001
+Participant: Amina Noor (P001)
+Classification: resting
+Usable observations: 6
+Rejected observations: 0
+Reason: Mean heart rate is at most 15 bpm above reference and activity is at most 0.20.
+  heart_rate: mean=68.833, min=68.000, max=70.000
+  skin_response: mean=1.193, min=1.170, max=1.220
+  temperature: mean=32.433, min=32.400, max=32.500
+  activity_level: mean=0.093, min=0.070, max=0.120
+  signal_quality: mean=0.970, min=0.960, max=0.980
+  heart_rate mean minus reference: +0.833
+  skin_response mean minus reference: -0.007
+  temperature mean minus reference: +0.033
+
+Session: FIT-2026-002
+Participant: Jonas Berg (P002)
+Classification: moderate activity
+Usable observations: 6
+Rejected observations: 0
+Reason: There is enough usable data and the resting, high-activity and recovery rules do not apply.
+  heart_rate: mean=102.000, min=78.000, max=118.000
+  skin_response: mean=2.012, min=1.550, max=2.400
+  temperature: mean=33.133, min=32.800, max=33.400
+  activity_level: mean=0.495, min=0.220, max=0.680
+  signal_quality: mean=0.945, min=0.930, max=0.960
+  heart_rate mean minus reference: +28.000
+  skin_response mean minus reference: +0.562
+  temperature mean minus reference: +0.433
+
+Session: FIT-2026-003
+Participant: Maya Chen (P003)
+Classification: high activity
+Usable observations: 6
+Rejected observations: 0
+Reason: Mean heart rate is at least 60 bpm above reference or activity is at least 0.75.
+  heart_rate: mean=132.500, min=72.000, max=162.000
+  skin_response: mean=3.242, min=1.300, max=4.200
+  temperature: mean=33.533, min=32.500, max=34.100
+  activity_level: mean=0.747, min=0.250, max=0.940
+  signal_quality: mean=0.943, min=0.920, max=0.970
+  heart_rate mean minus reference: +69.500
+  skin_response mean minus reference: +2.142
+  temperature mean minus reference: +1.233
+
+Session: FIT-2026-004
+Participant: Amina Noor (P001)
+Classification: recovering
+Usable observations: 6
+Rejected observations: 0
+Reason: Heart rate and activity are elevated during the activity phase, are lower at the end and fall in the final segment.
+  heart_rate: mean=113.167, min=72.000, max=151.000
+  skin_response: mean=2.583, min=1.350, max=3.900
+  temperature: mean=33.283, min=32.600, max=33.900
+  activity_level: mean=0.547, min=0.180, max=0.920
+  signal_quality: mean=0.957, min=0.940, max=0.970
+  heart_rate mean minus reference: +45.167
+  skin_response mean minus reference: +1.383
+  temperature mean minus reference: +0.883
+
+Session: FIT-2026-005
+Participant: Jonas Berg (P002)
+Classification: insufficient data
+Usable observations: 0
+Rejected observations: 5
+Reason: At least three usable observations are needed.
+  heart_rate: mean=N/A, min=N/A, max=N/A
+  skin_response: mean=N/A, min=N/A, max=N/A
+  temperature: mean=N/A, min=N/A, max=N/A
+  activity_level: mean=N/A, min=N/A, max=N/A
+  signal_quality: mean=N/A, min=N/A, max=N/A
+
+Session: FIT-2026-101
+Participant: Amina Noor (P001)
+Classification: insufficient data
+Usable observations: 1
+Rejected observations: 3
+Reason: At least three usable observations are needed.
+  heart_rate: mean=72.000, min=72.000, max=72.000
+  skin_response: mean=1.300, min=1.300, max=1.300
+  temperature: mean=32.500, min=32.500, max=32.500
+  activity_level: mean=0.100, min=0.100, max=0.100
+  signal_quality: mean=0.960, min=0.960, max=0.960
+  heart_rate mean minus reference: +4.000
+  skin_response mean minus reference: +0.100
+  temperature mean minus reference: +0.100
+
+Session: FIT-2026-102
+Participant: Jonas Berg (P002)
+Classification: insufficient data
+Usable observations: 0
+Rejected observations: 3
+Reason: At least three usable observations are needed.
+  heart_rate: mean=N/A, min=N/A, max=N/A
+  skin_response: mean=N/A, min=N/A, max=N/A
+  temperature: mean=N/A, min=N/A, max=N/A
+  activity_level: mean=N/A, min=N/A, max=N/A
+  signal_quality: mean=N/A, min=N/A, max=N/A
+
+Session: FIT-2026-103
+Participant: Maya Chen (P003)
+Classification: insufficient data
+Usable observations: 0
+Rejected observations: 1
+Reason: At least three usable observations are needed.
+  heart_rate: mean=N/A, min=N/A, max=N/A
+  skin_response: mean=N/A, min=N/A, max=N/A
+  temperature: mean=N/A, min=N/A, max=N/A
+  activity_level: mean=N/A, min=N/A, max=N/A
+  signal_quality: mean=N/A, min=N/A, max=N/A
+
